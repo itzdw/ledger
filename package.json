@@ -1,0 +1,17 @@
+{
+  "name": "soft-candy-ledger-pwa",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node --check server.js && node --check generate-vapid.js",
+    "generate-vapid": "node generate-vapid.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "快记 · 聊天记账",
+  "short_name": "快记",
+  "description": "像聊天一样，用文字或语音快速记账。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fffaf7",
+  "theme_color": "#f5f5f5",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
